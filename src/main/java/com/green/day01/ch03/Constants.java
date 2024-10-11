@@ -6,6 +6,9 @@ public class Constants {
         final char CONST_CHAR = '상';
         final int CONST_ASSIGNED;
 
+        // final 한번 초기화 하며 변경될수 없는 값
+        // 메소드 오버라이드(overridden)할수 없습니다
+
         CONST_ASSIGNED = 12;
 
         System.out.printf("상수1: %d\n",MAX_SIZE);
